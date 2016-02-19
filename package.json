@@ -1,0 +1,25 @@
+{
+	"name": "homebridge--log",
+	"version": "1.0.0",
+	"main": "index.js",
+	"description": "Adds locale timestamp to console output of homebridge.",
+	"dependencies": {
+		"log-prefix": "^0.0.0",
+		"chalk": "^1.1.1"
+	},
+	"keywords": [
+		"homebridge-plugin",
+		"log",
+		"timestamp"
+	],
+	"author": "Eisvogel",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DerEisvogel/homebridge--log"
+	},
+	"engines": {
+		"node": ">=0.12.0",
+		"homebridge": ">=0.2.0"
+	}
+}
